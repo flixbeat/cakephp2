@@ -1,0 +1,618 @@
+2016-06-08 05:49:50 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\Controller\ProductsController.php, line 7]
+2016-06-08 05:49:50 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /cakephp-2.8.2/
+Stack Trace:
+#0 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\Users\OJT-20...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\Users\OJT-20...', 7, Array)
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\Users\OJT-20...', 7, Array)
+#3 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-08 08:33:24 Warning: Warning (2): date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in [C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Log\Engine\FileLog.php, line 134]
+Trace:
+date - [internal], line ??
+FileLog::write() - CORE\Cake\Log\Engine\FileLog.php, line 134
+CakeLog::write() - CORE\Cake\Log\CakeLog.php, line 442
+ErrorHandler::handleFatalError() - CORE\Cake\Error\ErrorHandler.php, line 262
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 213
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE\Cake\Core\App.php, line 970
+App::shutdown() - CORE\Cake\Core\App.php, line 943
+[main] - [internal], line ??
+
+2016-06-08 08:33:24 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\View\Posts\index.ctp, line 14]
+2016-06-08 08:33:24 Warning: Warning (2): date() [<a href='http://php.net/function.date'>function.date</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in [C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Log\Engine\FileLog.php, line 134]
+Trace:
+date - [internal], line ??
+FileLog::write() - CORE\Cake\Log\Engine\FileLog.php, line 134
+CakeLog::write() - CORE\Cake\Log\CakeLog.php, line 442
+ErrorHandler::_log() - CORE\Cake\Error\ErrorHandler.php, line 188
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 118
+call_user_func - [internal], line ??
+ErrorHandler::handleFatalError() - CORE\Cake\Error\ErrorHandler.php, line 284
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 213
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE\Cake\Core\App.php, line 970
+App::shutdown() - CORE\Cake\Core\App.php, line 943
+[main] - [internal], line ??
+
+2016-06-08 08:33:24 Error: [InternalErrorException] Internal Server Error
+Request URL: /cakephp-2.8.2/
+Stack Trace:
+#0 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\Users\OJT-20...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\Users\OJT-20...', 14, Array)
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\Users\OJT-20...', 14, Array)
+#3 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-08 09:07:20 Warning: Warning (2): date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in [C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Log\Engine\FileLog.php, line 134]
+Trace:
+date - [internal], line ??
+FileLog::write() - CORE\Cake\Log\Engine\FileLog.php, line 134
+CakeLog::write() - CORE\Cake\Log\CakeLog.php, line 442
+ErrorHandler::handleFatalError() - CORE\Cake\Error\ErrorHandler.php, line 262
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 213
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE\Cake\Core\App.php, line 970
+App::shutdown() - CORE\Cake\Core\App.php, line 943
+[main] - [internal], line ??
+
+2016-06-08 09:07:20 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\View\Posts\index.ctp, line 14]
+2016-06-08 09:07:20 Warning: Warning (2): date() [<a href='http://php.net/function.date'>function.date</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in [C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Log\Engine\FileLog.php, line 134]
+Trace:
+date - [internal], line ??
+FileLog::write() - CORE\Cake\Log\Engine\FileLog.php, line 134
+CakeLog::write() - CORE\Cake\Log\CakeLog.php, line 442
+ErrorHandler::_log() - CORE\Cake\Error\ErrorHandler.php, line 188
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 118
+call_user_func - [internal], line ??
+ErrorHandler::handleFatalError() - CORE\Cake\Error\ErrorHandler.php, line 284
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 213
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE\Cake\Core\App.php, line 970
+App::shutdown() - CORE\Cake\Core\App.php, line 943
+[main] - [internal], line ??
+
+2016-06-08 09:07:20 Error: [InternalErrorException] Internal Server Error
+Request URL: /cakephp-2.8.2/
+Stack Trace:
+#0 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\Users\OJT-20...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\Users\OJT-20...', 14, Array)
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\Users\OJT-20...', 14, Array)
+#3 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-08 09:08:44 Warning: Warning (2): date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in [C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Log\Engine\FileLog.php, line 134]
+Trace:
+date - [internal], line ??
+FileLog::write() - CORE\Cake\Log\Engine\FileLog.php, line 134
+CakeLog::write() - CORE\Cake\Log\CakeLog.php, line 442
+ErrorHandler::handleFatalError() - CORE\Cake\Error\ErrorHandler.php, line 262
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 213
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE\Cake\Core\App.php, line 970
+App::shutdown() - CORE\Cake\Core\App.php, line 943
+[main] - [internal], line ??
+
+2016-06-08 09:08:44 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\View\Posts\index.ctp, line 14]
+2016-06-08 09:08:44 Warning: Warning (2): date() [<a href='http://php.net/function.date'>function.date</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in [C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Log\Engine\FileLog.php, line 134]
+Trace:
+date - [internal], line ??
+FileLog::write() - CORE\Cake\Log\Engine\FileLog.php, line 134
+CakeLog::write() - CORE\Cake\Log\CakeLog.php, line 442
+ErrorHandler::_log() - CORE\Cake\Error\ErrorHandler.php, line 188
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 118
+call_user_func - [internal], line ??
+ErrorHandler::handleFatalError() - CORE\Cake\Error\ErrorHandler.php, line 284
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 213
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE\Cake\Core\App.php, line 970
+App::shutdown() - CORE\Cake\Core\App.php, line 943
+[main] - [internal], line ??
+
+2016-06-08 09:08:44 Error: [InternalErrorException] Internal Server Error
+Request URL: /cakephp-2.8.2/
+Stack Trace:
+#0 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\Users\OJT-20...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\Users\OJT-20...', 14, Array)
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\Users\OJT-20...', 14, Array)
+#3 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-08 09:10:35 Warning: Warning (2): date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in [C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Log\Engine\FileLog.php, line 134]
+Trace:
+date - [internal], line ??
+FileLog::write() - CORE\Cake\Log\Engine\FileLog.php, line 134
+CakeLog::write() - CORE\Cake\Log\CakeLog.php, line 442
+ErrorHandler::handleFatalError() - CORE\Cake\Error\ErrorHandler.php, line 262
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 213
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE\Cake\Core\App.php, line 970
+App::shutdown() - CORE\Cake\Core\App.php, line 943
+[main] - [internal], line ??
+
+2016-06-08 09:10:35 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\View\Posts\index.ctp, line 14]
+2016-06-08 09:10:35 Warning: Warning (2): date() [<a href='http://php.net/function.date'>function.date</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in [C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Log\Engine\FileLog.php, line 134]
+Trace:
+date - [internal], line ??
+FileLog::write() - CORE\Cake\Log\Engine\FileLog.php, line 134
+CakeLog::write() - CORE\Cake\Log\CakeLog.php, line 442
+ErrorHandler::_log() - CORE\Cake\Error\ErrorHandler.php, line 188
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 118
+call_user_func - [internal], line ??
+ErrorHandler::handleFatalError() - CORE\Cake\Error\ErrorHandler.php, line 284
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 213
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE\Cake\Core\App.php, line 970
+App::shutdown() - CORE\Cake\Core\App.php, line 943
+[main] - [internal], line ??
+
+2016-06-08 09:10:35 Error: [InternalErrorException] Internal Server Error
+Request URL: /cakephp-2.8.2/
+Stack Trace:
+#0 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\Users\OJT-20...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\Users\OJT-20...', 14, Array)
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\Users\OJT-20...', 14, Array)
+#3 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-08 09:11:01 Warning: Warning (2): date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in [C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Log\Engine\FileLog.php, line 134]
+Trace:
+date - [internal], line ??
+FileLog::write() - CORE\Cake\Log\Engine\FileLog.php, line 134
+CakeLog::write() - CORE\Cake\Log\CakeLog.php, line 442
+ErrorHandler::handleFatalError() - CORE\Cake\Error\ErrorHandler.php, line 262
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 213
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE\Cake\Core\App.php, line 970
+App::shutdown() - CORE\Cake\Core\App.php, line 943
+[main] - [internal], line ??
+
+2016-06-08 09:11:01 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\View\Posts\index.ctp, line 14]
+2016-06-08 09:11:01 Warning: Warning (2): date() [<a href='http://php.net/function.date'>function.date</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in [C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Log\Engine\FileLog.php, line 134]
+Trace:
+date - [internal], line ??
+FileLog::write() - CORE\Cake\Log\Engine\FileLog.php, line 134
+CakeLog::write() - CORE\Cake\Log\CakeLog.php, line 442
+ErrorHandler::_log() - CORE\Cake\Error\ErrorHandler.php, line 188
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 118
+call_user_func - [internal], line ??
+ErrorHandler::handleFatalError() - CORE\Cake\Error\ErrorHandler.php, line 284
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 213
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE\Cake\Core\App.php, line 970
+App::shutdown() - CORE\Cake\Core\App.php, line 943
+[main] - [internal], line ??
+
+2016-06-08 09:11:01 Error: [InternalErrorException] Internal Server Error
+Request URL: /cakephp-2.8.2/
+Stack Trace:
+#0 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\Users\OJT-20...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\Users\OJT-20...', 14, Array)
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\Users\OJT-20...', 14, Array)
+#3 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-08 09:11:12 Warning: Warning (2): date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in [C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Log\Engine\FileLog.php, line 134]
+Trace:
+date - [internal], line ??
+FileLog::write() - CORE\Cake\Log\Engine\FileLog.php, line 134
+CakeLog::write() - CORE\Cake\Log\CakeLog.php, line 442
+ErrorHandler::handleFatalError() - CORE\Cake\Error\ErrorHandler.php, line 262
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 213
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE\Cake\Core\App.php, line 970
+App::shutdown() - CORE\Cake\Core\App.php, line 943
+[main] - [internal], line ??
+
+2016-06-08 09:11:12 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\View\Posts\index.ctp, line 14]
+2016-06-08 09:11:12 Warning: Warning (2): date() [<a href='http://php.net/function.date'>function.date</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in [C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Log\Engine\FileLog.php, line 134]
+Trace:
+date - [internal], line ??
+FileLog::write() - CORE\Cake\Log\Engine\FileLog.php, line 134
+CakeLog::write() - CORE\Cake\Log\CakeLog.php, line 442
+ErrorHandler::_log() - CORE\Cake\Error\ErrorHandler.php, line 188
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 118
+call_user_func - [internal], line ??
+ErrorHandler::handleFatalError() - CORE\Cake\Error\ErrorHandler.php, line 284
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 213
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE\Cake\Core\App.php, line 970
+App::shutdown() - CORE\Cake\Core\App.php, line 943
+[main] - [internal], line ??
+
+2016-06-08 09:11:12 Error: [InternalErrorException] Internal Server Error
+Request URL: /cakephp-2.8.2/
+Stack Trace:
+#0 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\Users\OJT-20...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\Users\OJT-20...', 14, Array)
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\Users\OJT-20...', 14, Array)
+#3 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-08 09:11:20 Warning: Warning (2): date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in [C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Log\Engine\FileLog.php, line 134]
+Trace:
+date - [internal], line ??
+FileLog::write() - CORE\Cake\Log\Engine\FileLog.php, line 134
+CakeLog::write() - CORE\Cake\Log\CakeLog.php, line 442
+ErrorHandler::handleFatalError() - CORE\Cake\Error\ErrorHandler.php, line 262
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 213
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE\Cake\Core\App.php, line 970
+App::shutdown() - CORE\Cake\Core\App.php, line 943
+[main] - [internal], line ??
+
+2016-06-08 09:11:20 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\View\Posts\index.ctp, line 14]
+2016-06-08 09:11:20 Warning: Warning (2): date() [<a href='http://php.net/function.date'>function.date</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in [C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Log\Engine\FileLog.php, line 134]
+Trace:
+date - [internal], line ??
+FileLog::write() - CORE\Cake\Log\Engine\FileLog.php, line 134
+CakeLog::write() - CORE\Cake\Log\CakeLog.php, line 442
+ErrorHandler::_log() - CORE\Cake\Error\ErrorHandler.php, line 188
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 118
+call_user_func - [internal], line ??
+ErrorHandler::handleFatalError() - CORE\Cake\Error\ErrorHandler.php, line 284
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 213
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE\Cake\Core\App.php, line 970
+App::shutdown() - CORE\Cake\Core\App.php, line 943
+[main] - [internal], line ??
+
+2016-06-08 09:11:20 Error: [InternalErrorException] Internal Server Error
+Request URL: /cakephp-2.8.2/posts
+Stack Trace:
+#0 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\Users\OJT-20...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\Users\OJT-20...', 14, Array)
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\Users\OJT-20...', 14, Array)
+#3 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-08 09:12:18 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\View\Posts\index.ctp, line 14]
+2016-06-08 09:12:18 Error: [FatalErrorException] syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+Request URL: /cakephp-2.8.2/posts
+Stack Trace:
+#0 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\Users\OJT-20...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\Users\OJT-20...', 14, Array)
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\Users\OJT-20...', 14, Array)
+#3 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-08 09:13:21 Error: [MissingActionException] Action PostsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'view',
+)
+Request URL: /cakephp-2.8.2/posts/view/1
+Stack Trace:
+#0 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-08 09:16:30 Error: [MissingViewException] View file "Posts\view.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts\\view.ctp',
+)
+Request URL: /cakephp-2.8.2/posts/view/1
+Stack Trace:
+#0 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-10 00:46:37 Error: [NotFoundException] Invalid Post
+Request URL: /cakephp-2.8.2/posts/view/4
+Stack Trace:
+#0 [internal function]: PostsController->view('4')
+#1 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-10 00:46:49 Error: [NotFoundException] Invalid Post
+Request URL: /cakephp-2.8.2/posts/view/
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-10 00:47:04 Error: [NotFoundException] Invalid Post
+Request URL: /cakephp-2.8.2/posts/view/f
+Stack Trace:
+#0 [internal function]: PostsController->view('f')
+#1 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-10 01:17:10 Error: [NotFoundException] Invalid Post
+Request URL: /cakephp-2.8.2/posts/view/x
+Stack Trace:
+#0 [internal function]: PostsController->view('x')
+#1 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-10 01:17:26 Error: [NotFoundException] Invalid Post
+Request URL: /cakephp-2.8.2/posts/view/
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-10 01:26:48 Error: [CakeException] Missing field name for FormHelper::render
+Request URL: /cakephp-2.8.2/posts/add
+Stack Trace:
+#0 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\View\Posts\add.ctp(1): FormHelper->__call('render', Array)
+#1 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\View\Posts\add.ctp(1): FormHelper->render()
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(971): include('C:\Users\OJT-20...')
+#3 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(933): View->_evaluate('C:\Users\OJT-20...', Array)
+#4 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(473): View->_render('C:\Users\OJT-20...')
+#5 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#6 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#7 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#8 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-06-10 01:26:52 Error: [CakeException] Missing field name for FormHelper::render
+Request URL: /cakephp-2.8.2/posts/add
+Stack Trace:
+#0 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\View\Posts\add.ctp(1): FormHelper->__call('render', Array)
+#1 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\View\Posts\add.ctp(1): FormHelper->render()
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(971): include('C:\Users\OJT-20...')
+#3 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(933): View->_evaluate('C:\Users\OJT-20...', Array)
+#4 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(473): View->_render('C:\Users\OJT-20...')
+#5 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#6 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#7 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#8 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-06-10 01:39:44 Error: [NotFoundException] Invalid Post
+Request URL: /cakephp-2.8.2/posts/view/
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-10 01:40:00 Error: [NotFoundException] Invalid Post
+Request URL: /cakephp-2.8.2/posts/view/x
+Stack Trace:
+#0 [internal function]: PostsController->view('x')
+#1 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-24 01:07:17 Error: [MissingHelperException] Helper class JavascriptHelper could not be found.
+Exception Attributes: array (
+  'class' => 'JavascriptHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp-2.8.2/
+Stack Trace:
+#0 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(907): HelperCollection->load('Javascript', Array)
+#1 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(354): View->loadHelpers()
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Controller\Controller.php(1250): View->__construct(Object(PostsController))
+#3 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Controller\Controller.php(949): Controller->_getViewObject()
+#4 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#5 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#6 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-06-24 01:07:45 Error: [MissingHelperException] Helper class JavascriptHelper could not be found.
+Exception Attributes: array (
+  'class' => 'JavascriptHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp-2.8.2/
+Stack Trace:
+#0 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(907): HelperCollection->load('Javascript', Array)
+#1 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(354): View->loadHelpers()
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Controller\Controller.php(1250): View->__construct(Object(PostsController))
+#3 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Controller\Controller.php(949): Controller->_getViewObject()
+#4 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#5 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#6 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-06-24 01:07:47 Error: [MissingHelperException] Helper class JavascriptHelper could not be found.
+Exception Attributes: array (
+  'class' => 'JavascriptHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp-2.8.2/
+Stack Trace:
+#0 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(907): HelperCollection->load('Javascript', Array)
+#1 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(354): View->loadHelpers()
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Controller\Controller.php(1250): View->__construct(Object(PostsController))
+#3 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Controller\Controller.php(949): Controller->_getViewObject()
+#4 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#5 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#6 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-06-24 01:08:12 Error: [MissingHelperException] Helper class JavascriptHelper could not be found.
+Exception Attributes: array (
+  'class' => 'JavascriptHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp-2.8.2/
+Stack Trace:
+#0 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(907): HelperCollection->load('Javascript', Array)
+#1 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(354): View->loadHelpers()
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Controller\Controller.php(1250): View->__construct(Object(PostsController))
+#3 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Controller\Controller.php(949): Controller->_getViewObject()
+#4 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#5 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#6 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-06-24 01:08:14 Error: [MissingHelperException] Helper class JavascriptHelper could not be found.
+Exception Attributes: array (
+  'class' => 'JavascriptHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp-2.8.2/
+Stack Trace:
+#0 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(907): HelperCollection->load('Javascript', Array)
+#1 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(354): View->loadHelpers()
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Controller\Controller.php(1250): View->__construct(Object(PostsController))
+#3 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Controller\Controller.php(949): Controller->_getViewObject()
+#4 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#5 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#6 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-06-24 01:08:15 Error: [MissingHelperException] Helper class JavascriptHelper could not be found.
+Exception Attributes: array (
+  'class' => 'JavascriptHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp-2.8.2/
+Stack Trace:
+#0 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(907): HelperCollection->load('Javascript', Array)
+#1 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(354): View->loadHelpers()
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Controller\Controller.php(1250): View->__construct(Object(PostsController))
+#3 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Controller\Controller.php(949): Controller->_getViewObject()
+#4 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#5 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#6 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-06-24 01:08:19 Error: [MissingHelperException] Helper class JavascriptHelper could not be found.
+Exception Attributes: array (
+  'class' => 'JavascriptHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp-2.8.2/
+Stack Trace:
+#0 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Javascript')
+#1 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(858): HelperCollection->__isset('Javascript')
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\View\Posts\index.ctp(1): View->__get('Javascript')
+#3 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(971): include('C:\Users\OJT-20...')
+#4 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(933): View->_evaluate('C:\Users\OJT-20...', Array)
+#5 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(473): View->_render('C:\Users\OJT-20...')
+#6 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#7 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-06-24 01:08:23 Error: [MissingHelperException] Helper class JavascriptHelper could not be found.
+Exception Attributes: array (
+  'class' => 'JavascriptHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp-2.8.2/
+Stack Trace:
+#0 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Javascript')
+#1 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(858): HelperCollection->__isset('Javascript')
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\View\Posts\index.ctp(1): View->__get('Javascript')
+#3 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(971): include('C:\Users\OJT-20...')
+#4 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(933): View->_evaluate('C:\Users\OJT-20...', Array)
+#5 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(473): View->_render('C:\Users\OJT-20...')
+#6 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#7 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-06-24 01:08:24 Error: [MissingHelperException] Helper class JavascriptHelper could not be found.
+Exception Attributes: array (
+  'class' => 'JavascriptHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp-2.8.2/
+Stack Trace:
+#0 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Javascript')
+#1 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(858): HelperCollection->__isset('Javascript')
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\View\Posts\index.ctp(1): View->__get('Javascript')
+#3 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(971): include('C:\Users\OJT-20...')
+#4 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(933): View->_evaluate('C:\Users\OJT-20...', Array)
+#5 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(473): View->_render('C:\Users\OJT-20...')
+#6 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#7 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-06-24 01:08:36 Error: [MissingHelperException] Helper class JavascriptHelper could not be found.
+Exception Attributes: array (
+  'class' => 'JavascriptHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp-2.8.2/
+Stack Trace:
+#0 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(907): HelperCollection->load('Javascript', Array)
+#1 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(354): View->loadHelpers()
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Controller\Controller.php(1250): View->__construct(Object(PostsController))
+#3 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Controller\Controller.php(949): Controller->_getViewObject()
+#4 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#5 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#6 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-06-24 01:08:44 Error: [MissingHelperException] Helper class JavascriptHelper could not be found.
+Exception Attributes: array (
+  'class' => 'JavascriptHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp-2.8.2/
+Stack Trace:
+#0 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Javascript')
+#1 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(858): HelperCollection->__isset('Javascript')
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\View\Posts\index.ctp(1): View->__get('Javascript')
+#3 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(971): include('C:\Users\OJT-20...')
+#4 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(933): View->_evaluate('C:\Users\OJT-20...', Array)
+#5 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(473): View->_render('C:\Users\OJT-20...')
+#6 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#7 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-06-24 01:08:45 Error: [MissingHelperException] Helper class JavascriptHelper could not be found.
+Exception Attributes: array (
+  'class' => 'JavascriptHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp-2.8.2/
+Stack Trace:
+#0 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Javascript')
+#1 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(858): HelperCollection->__isset('Javascript')
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\View\Posts\index.ctp(1): View->__get('Javascript')
+#3 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(971): include('C:\Users\OJT-20...')
+#4 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(933): View->_evaluate('C:\Users\OJT-20...', Array)
+#5 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\View\View.php(473): View->_render('C:\Users\OJT-20...')
+#6 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#7 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-06-24 01:20:45 Error: [MissingActionException] Action PostsController::bootstrap.min() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'bootstrap.min',
+)
+Request URL: /cakephp-2.8.2/posts/bootstrap.min
+Stack Trace:
+#0 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-24 01:20:48 Error: [MissingActionException] Action PostsController::jquery-3.0.0.min() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'jquery-3.0.0.min',
+)
+Request URL: /cakephp-2.8.2/posts/jquery-3.0.0.min
+Stack Trace:
+#0 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-24 01:21:02 Error: Fatal Error (1): Call to undefined method View::Js() in [C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\app\View\Posts\index.ctp, line 1]
+2016-06-24 01:21:02 Error: [FatalErrorException] Call to undefined method View::Js()
+Request URL: /cakephp-2.8.2/
+Stack Trace:
+#0 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\Users\OJT-20...', 1)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\Users\OJT-20...', 1, Array)
+#2 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\Users\OJT-20...', 1, Array)
+#3 C:\Users\OJT-2016-1\Desktop\usbwebserver\root\cakephp-2.8.2\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
